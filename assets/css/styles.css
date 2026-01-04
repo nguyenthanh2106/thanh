@@ -213,7 +213,7 @@ img {
 
 /* Add shadow header */
 .shadow-header {
-  box-shadow: 0 2px 16px hsla(0, 0%, 0%, .5); /* Tạo bóng đổ nhẹ phía dưới */
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, .5);
 }
 
 /* Active link */
@@ -439,15 +439,13 @@ img {
   margin-top: .5rem;
 }
 
-/* Khi di chuột vào Card thì bóng đổ đổi màu */
 .projects__card:hover{
   box-shadow: 0 8px 16px hsla(var(--hue), 80%, 48%, .2);
 }
 
-/* Khi di chuột vào Card thì lớp data hiện lên */
 .projects__card:hover .projects__data{
   opacity: 1;
-  pointer-events: initial; /* Cho phép bấm nút khi đã hiện */
+  pointer-events: initial;
 }
 
 /*=============== RESUME ===============*/
@@ -766,13 +764,11 @@ footer__container{
     height: calc(var(--header-height) + 2rem);
   }
 
-  /* Ẩn nút 3 gạch và nút X trên máy tính */
   .nav__toggle,
   .nav__close{
     display: none;
   }
 
-  /* Xếp menu thành hàng ngang */
   .nav__list{
     flex-direction: row;
     column-gap: 4rem;
@@ -784,7 +780,6 @@ footer__container{
     box-shadow: none;
     padding-block: 0;
     transition: none;
-    /* Đảm bảo menu luôn hiện trên desktop */
     display: flex; 
     align-items: center;
   }
