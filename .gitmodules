@@ -1,0 +1,3 @@
+[submodule "rafo"]
+	path = rafo
+	url = https://github.com/nguyenthanh2106/Food-Randomizer.git
